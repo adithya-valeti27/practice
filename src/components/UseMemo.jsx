@@ -1,3 +1,4 @@
+import { log } from 'console';
 import React, { useEffect } from 'react';
 
 const UseEffectExample = () => {
@@ -18,3 +19,4 @@ const UseEffectExample = () => {
 };
 
 export default UseEffectExample;
+log
