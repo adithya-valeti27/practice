@@ -30,3 +30,9 @@ h2{
   font-size: 60px;
   color: red;
 }
+.comp{
+  padding: 40px;
+  border: 2px solid blue;
+  color: red;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
