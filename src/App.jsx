@@ -1,18 +1,16 @@
-import React from 'react'
-import Usestate from './components/Usestate'
-import UseEffect from './components/UseEffect'
-import Useref from './components/Useref'
-import UseMemo from './components/UseMemo'
+import React from "react";
+import Usestate from "./components/Usestate";
+import CompA from "./prop-drilling/CompA";
+import UseLayoutEffcet from "./components/UseLayoutEffcet";
+import UseEffect from "./components/UseEffect";
+import Comp1 from "./context/Comp1";
 
 const App = () => {
   return (
-    <div>
-      <Usestate/>
-      <UseEffect/>
-      <Useref/>
-      <UseMemo/>
+    <div className="comp">
+    <Comp1/>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
